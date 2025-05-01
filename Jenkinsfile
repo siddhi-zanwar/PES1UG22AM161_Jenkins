@@ -17,11 +17,10 @@ pipeline {
                 }
             }
         }
-        oonts oonts
         stage('Deploy') {
             steps {
                 script {
-                    echo 'Deploying the application!'
+                    echon 'Deploying the application!'
                   
                 }
             }
